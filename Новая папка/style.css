@@ -1,0 +1,11 @@
+.img_container{
+    height: 300px;
+    width: 500px;
+    border: 2px solid greenyellow;
+}
+.img_background{
+    width: 500px;
+    height: 400px;
+    background: url(pexels-photo-617278.jpeg) no-repeat;
+    
+} 

@@ -1,0 +1,7 @@
+html * {
+  outline: 1px solid rgb(148, 63, 63);
+}
+
+.container{
+  border: 2px solid blue;
+}
