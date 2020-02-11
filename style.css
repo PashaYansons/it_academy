@@ -17,7 +17,9 @@
     margin-left: 218px;
 }
 
-
+.menu_item:last-child{
+    padding-bottom: 5px;
+}
 
 .text_container{
     font-family: ﻿Bebas, ﻿Calibri, ﻿MyriadPro-Regular, ﻿AdobeInvisFont;
@@ -39,34 +41,40 @@ text-align: center;
     display: flex;
     align-items: center;
     margin-right: 212px;
-    margin-top: 19px;
     text-align: center;
 }
 .menu_item{
-    margin-left: 88px;
+ width: 125px;
+ padding-top: 10px;
 }
 .call{
-    width: 100%;
-    border-bottom: 3px solid #fcba50;
-}
-.call-container{
-    height: 400px;
-    background: url(asserts/big-orange-bg@1X.png) ;
-    background-size: cover;
-    font-family: ﻿MyriadPro-Regular, ﻿Bebas, ﻿MyriadPro-Regular, ﻿AdobeInvisFont;
+ font-family: ﻿MyriadPro-Regular, ﻿Bebas, ﻿MyriadPro-Regular, ﻿AdobeInvisFont;
 font-size: 37px;
 color: rgba(251, 156, 6, 255);
+    height: 400px;
+    width: 100%;
+    border-bottom: 3px solid #fcba50;
+    background: url(asserts/big-orange-bg@1X.png) ;
+    background-size: cover;
+}
+.call-container{
+    
+    max-width: 1600px;
+    margin: auto;
+    height: 400px;
+  
+   
 }
 .first_call{
     position: absolute;
-    margin-left: 420px;
+    margin-left: 310px;
     margin-top: 129px;
     background: #4a4f4fb0;
     color: #fb9c06;
 }
 .second_call{
     position: absolute;
-    margin-left: 410px;
+    margin-left: 300px;
     margin-top: 223px;
     background: #fbc859b2;
 }
@@ -243,6 +251,6 @@ text-align: right;
 .footer-text{
 
 }
-.img-menu-container:hover{
+.menu_item:hover{
     background: #fb9c06;
 }
